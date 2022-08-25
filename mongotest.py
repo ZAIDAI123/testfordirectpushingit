@@ -8,6 +8,18 @@ d = {
     "email":"sudh@ineuron.ai",
     "surname":"kumar"
 }
+
+d = {
+    "name":"sum",
+    "email":"sum@ineuron.ai",
+    "surname":"sun"
+}
+
+d = {
+    "name":"su",
+    "email":"su@ineuron.ai",
+    "surname":"kumar"
+}
 db1 = client['mongotest']
 cell = db1['test']
 cell.insert_one(d)
